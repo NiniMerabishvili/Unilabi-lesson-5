@@ -63,4 +63,11 @@
 .title1-2 {
 	padding-left: 142px;
 }
-
+.div1 {
+	margin-bottom: 20px;
+}
+.container-div::after {
+	content: '';
+	clear: both;
+	display: block;
+}
